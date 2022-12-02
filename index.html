@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hogwarts.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/harry-potter">
+    <title>Hogwarts school of magic</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="hogwarts-7917.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="history.html">HISTORY</a></li>
+                    <li> <a href="professors.html">PROFESSORS</a></li>
+                    <li> <a href="house.html">HOUSES</a></li>
+                    <li> <a href="contact.html">CONTACT US</a></li>
+                    <li> <a href="add.html">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+    
+            <h1>Hogwarts School of Witchcraft and Wizardry</h1>
+            <p>Hogwarts School of magic for students aged eleven to eighteen<br>One of the best school for wizards and
+                witches</p>
+            <a href="contact.html">Click for index.html</a>
+        </div>
+    </section>
+
+    <section class="sub">
+        <h1>Subjects</h1>
+        <p>These are some subjects tought by our best profeesers in hogwarts.</p>
+
+        <div class="row">
+            <div class="sub-col">
+                <h3>Transfiguration</h3>
+                <p>Transfiguration is the family of magical spells that are used for changing objects from one type of thing into another. At Hogwarts, Transfiguration is taught by Professor Minerva McGonagall.</p>
+            </div>
+            <div class="sub-col">
+                <h3>Charms</h3>
+                <p>Charms is a course that teaches how to cast the class of spells known as Charms. These are spells that alter an object without changing its essential nature. </p>
+            </div>
+            <div class="sub-col">
+                <h3>Potions</h3>
+                <p>students learn the correct way to brew potions, following specific recipes and using various magical ingredients to create their potions.</p>
+            </div>
+            <div class="sub-col">
+                <h3>History of Magic</h3>
+                <p>This was one of the subjects where the use of magic practically was not necessary. History of Magic was taught from the first year to the fifth, and was completed with an O.W.L.</p>
+            </div>
+            <div class="sub-col" id="subcol">
+                <h3>Defence Against the Dark Arts</h3>
+                <p>Defense Against the Dark Arts (sometimes written as D.A.D.A.) is a mandatory subject in which students learn how to magically defend themselves against Dark Creatures and the Dark Arts.</p>
+            </div>
+            <div class="sub-col" id="subcol">
+                <h3>Astronomy</h3>
+                <p>Astronomy was a core class and subject, Astronomy was the branch of magic and science that studied stars and the movement of planets.</p>
+            </div>
+            <div class="sub-col" id="subcol">
+                <h3>Herbology</h3>
+                <p>Herbology is the study of magical and mundane plants and fungi. In Herbology, students learn to care for and utilize plants, and learn about their magical properties, and what they are used for.</p>
+            </div>
+            <div class="sub-col" id="subcol">
+                <h3>Flying</h3>
+                <p>Flying also known as Broom Flight Class,It was taught by Madam Rolanda Hooch, the Hogwarts Flying Instructor and Quidditch referee. The subject taught students how to fly broomsticks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="view">      
+        <h1>Views of School</h1>
+        <div class="row">
+            <div class="view-col">
+                <img src="night.jpg" alt="" onclick = "fullimg()" >
+                <div class="layer">
+                    <h3>At night</h3>
+                </div>
+            </div> 
+            <div class="view-col" id="full">
+                <img src="cristmas.jpg" alt="" onclick = "fullimg()">
+                <div class="layer">
+                    <h3>Cristmas</h3>
+                </div>
+            </div>
+            <div class="view-col">
+                <img src="halloween.jpg" alt="" onclick = "fullimg()">
+                <div class="layer">
+                    <h3>halloween</h3>
+                </div>
+            </div>
+            <div class="view-col">
+                <img src="great_hall.jpg" alt="" onclick = "fullimg()">
+                <div class="layer">
+                    <h3>Great Hall</h3>
+                </div>
+            </div>
+            <div class="view-col">
+                <img src="library.jpg" alt="" onclick = "fullimg()">
+                <div class="layer">
+                    <h3>Library</h3>
+                </div>
+            </div>
+            <div class="view-col">
+                <img src="train.jpg" alt="" onclick = "fullimg()">
+                <div class="layer">
+                    <h3>Hogwarts Express</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a href="#" class="to-top">
+        <i class="fa fa-arrow-circle-o-up"></i>
+    </a>
+
+
+    <section class="game">
+        <h1>Games and Events</h1>
+        <div class="row1">
+            <div class="game-img">
+                <img src="quiddich.jpg" alt="">
+            </div>
+            <div class="game-text">
+                <p> <h1> Quiddich </h1>is Played by two teams consisting of seven
+                    players each, it is designed to mirror the book version of the game as much as possible.
+                    Each player is mounted on a broomstick and attempts to win the game by having more
+                    points than their opponents by the time the Golden Snitch is caught (which in this
+                    version of the game, is a tennis ball in a long yellow sock).The object of the game of Quidditch is to score more points than your opponents.
+                    Players do this by scoring goals which is done by placing a slightly deflated volleyball
+                    called the Quaffle into the opposition's baskets giving them 10 points, and by capturing
+                    the Golden Snitch which is worth 30 points.
+                    
+                </p>
+            </div>
+            
+            <div class="game-text1">
+                <p> <h1> The Triwizard Tournament </h1>was first established some seven hundred years ago as a friendly competition between the three largest European schools of wizardry: Hogwarts, Beauxbatons, and Durmstrang. A champion was selected to represent each school, and the three champions competed in three magical tasks. The schools took it in turns to host the tournament once every five years, and it was generally agreed to be a most excellent way of establishing ties between young witches and wizards of different nationalities — until, that is, the death toll mounted so high that the tournament was discontinued.</p>
+            </div>
+            <div class="game-img1">
+                <img src="tournament.jpg" alt="">
+            </div>
+            <div class="game-text2">
+                <p> <h1> The Triwizard Tournament </h1>was first established some seven hundred years ago as a friendly competition between the three largest European schools of wizardry: Hogwarts, Beauxbatons, and Durmstrang. A champion was selected to represent each school, and the three champions competed in three magical tasks. The schools took it in turns to host the tournament once every five years, and it was generally agreed to be a most excellent way of establishing ties between young witches and wizards of different nationalities — until, that is, the death toll mounted so high that the tournament was discontinued.</p>
+            </div>
+        </div>
+            
+    </section>
+
+<!-- <====================================review===================> -->
+<section class="review">
+    <h1>What some great wizards says</h1>
+    <p>The honest review by some great wizards who are passout from Hogwarts</p>
+
+    <div class="row">
+        <div class="review-col">
+            <img src="harry.jpg" alt="">
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, nostrum quis vitae soluta ex expedita aspernatur, labore voluptate accusamus temporibus omnis velit laudantium obcaecati eos?</p>
+                <h3>Harry Potter</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="review-col">
+            <img src="hermonie.jpeg" alt="">
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, nostrum quis vitae soluta ex expedita aspernatur, labore voluptate accusamus temporibus omnis velit laudantium obcaecati eos?</p>
+                <h3>Hermione Granger</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <=================footer================> -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Hogwarts was founded around 990 A.D. by four of the greatest wizards and witches of the age: Godric Gryffindor,<br> Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin.<br> It is located at :Hogwarts Castle, Highlands, Scotland, Great Britain.
+    </p>
+    <div class="icons">
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Made by <img src="last_sign2.0.png" alt="">....</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <================================js===========================> -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.display="block";
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+            navLinks.style.display ="none";
+        }
+    </script>
+    <!-- <script>
+        var viewCol = document.getElementById("viewCol");
+
+        function fullimg(){
+            viewCol.style.display = "none";
+        }
+    </script> -->
+    <script>
+         const toTop = document.querySelector(".to-top");
+
+         window.addEventListener("scroll",() =>{
+            if(window.pageYOffset > 100){
+                toTop.classList.add("active");
+            }else{
+                toTop.classList.remove("active");
+            }
+         })
+    </script>
+
+</body>
+
+</html>
