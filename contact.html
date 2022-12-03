@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="hogwarts.css">
+</head>
+<body>
+    <section class="con-header">
+        <nav>
+            <a href="index.html"><img src="hogwarts-7917.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="history.html">HISTORY</a></li>
+                    <li> <a href="professors.html">PROFESSORS</a></li>
+                    <li> <a href="house.html">HOUSES</a></li>
+                    <li> <a href="contact.html">CONTACT US</a></li>
+                    <li> <a href="add.html">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <section class="contact-us">
+        <h1>Details to contact us</h1>
+        <div class="contact-row">
+            <div class="contact-col">
+                <div class="contact-content">
+                    <img src="castle.png" alt="">
+                    <span><h5>Hogwarts castle, highland, scotland, Great Britain </h5></span>
+                </div>
+                <div class="contact-content">
+                    <i class="fa fa-phone"></i>
+                    <span><h5>+91 9623875667</h5></span>
+                </div>
+                <div class="contact-content">
+                    <i class="fa fa-envelope-o"></i>
+                    <span><h5>Choudharichaitu0101@gmil.com</h5></span>
+                </div>
+            </div>
+            <div class="contact-col3">
+                <img src="owl.jpg" alt="">
+            </div>
+            <div class="contact-col2">
+                <div class="contact-form">
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="contact-form">
+                    <input type="email" placeholder="Enter your email">
+                </div>
+                <div class="contact-form">
+                    <input type="radio" name="type">witch/wizards
+                    <input type="radio" name="type">muggle
+                </div>  
+                <div class="contact-form">
+                    <input type="number" placeholder="your age">
+                </div>
+                <div class="contact-form">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Please Enter your query"></textarea>
+                </div>
+                <div class="contact-form">
+                    <button>Submit</button>
+                </div>
+            </div>
+                
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Hogwarts was founded around 990 A.D. by four of the greatest wizards and witches of the age: Godric Gryffindor,<br> Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin.<br> It is located at :Hogwarts Castle, Highlands, Scotland, Great Britain.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by <img src="last_sign2.0.png" alt=""></p>
+    
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <==========================scroll==================> -->
+    <a href="#" class="to-top">
+        <i class="fa fa-arrow-circle-o-up"></i>
+    </a>
+    <!-- <================================js===========================> -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.display="block";
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+            navLinks.style.display ="none";
+        }
+    </script>
+    <!-- <script>
+        var viewCol = document.getElementById("viewCol");
+
+        function fullimg(){
+            viewCol.style.display = "none";
+        }
+    </script> -->
+    <script>
+         const toTop = document.querySelector(".to-top");
+
+         window.addEventListener("scroll",() =>{
+            if(window.pageYOffset > 100){
+                toTop.classList.add("active");
+            }else{
+                toTop.classList.remove("active");
+            }
+         })
+    </script>
+</body>
+</html>

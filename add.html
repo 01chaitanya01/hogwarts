@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="hogwarts.css">
+</head>
+<body>
+    <section class="about-header">
+        <nav>
+            <a href="index.html"><img src="hogwarts-7917.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="history.html">HISTORY</a></li>
+                    <li> <a href="professors.html">PROFESSORS</a></li>
+                    <li> <a href="history.html">HOUSES</a></li>
+                    <li> <a href="contact.html">CONTACT US</a></li>
+                    <li> <a href="add.html">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!-- <h3>Houses</h3> -->
+    </section>
+
+    <section class="aboutus">
+        <div class="abt-content">
+        <div class="abt-col">
+            <img src="harry-abt.jpg" alt="">
+        </div>
+        <div class="abt-col">
+            <h1>Hogwarts is the best school</h1>
+            <p>for Wizardry and Witchcraft it is a coeducational, secondary boarding school, taking children from ages eleven to seventeen.Education at Hogwarts is not compulsory,The primary mode of transport to Hogwarts is the Hogwarts Express that students take at the start of each school year. Students board the train from the also fictional and hidden Platform 9¾ at King's Cross station in London. The train arrives at Hogsmeade station near Hogwarts, some time after nightfall.From there, first-year students are accompanied by the "Keeper of the Keys, Game and Grounds" (which was Hagrid during the first novel) to small boats, which magically sail across the lake and get them near the entrance of Hogwarts.</p>
+            <a href=""><button class="btn">Explore More</button></a>
+        </div>
+        <div class="abt-col">
+            <img src="albus-abt.jpg" alt="">
+        </div>
+    </div>
+
+
+    </section>
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Hogwarts was founded around 990 A.D. by four of the greatest wizards and witches of the age: Godric Gryffindor,<br> Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin.<br> It is located at :Hogwarts Castle, Highlands, Scotland, Great Britain.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by <img src="last_sign2.0.png" alt="">...</p>
+    
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <==========================scroll==================> -->
+    <a href="#" class="to-top">
+        <i class="fa fa-arrow-circle-o-up"></i>
+    </a>
+    <!-- <================================js===========================> -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.display="block";
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+            navLinks.style.display ="none";
+        }
+    </script>
+    <!-- <script>
+        var viewCol = document.getElementById("viewCol");
+
+        function fullimg(){
+            viewCol.style.display = "none";
+        }
+    </script> -->
+    <script>
+         const toTop = document.querySelector(".to-top");
+
+         window.addEventListener("scroll",() =>{
+            if(window.pageYOffset > 100){
+                toTop.classList.add("active");
+            }else{
+                toTop.classList.remove("active");
+            }
+         })
+    </script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>houses</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="hogwarts.css">
+</head>
+<body>
+    <section class="house-header">
+        <nav>
+            <a href="index.html"><img src="hogwarts-7917.png" alt=""></a>
+            <!-- <h3>Houses</h3> -->
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="history.html">HISTORY</a></li>
+                    <li> <a href="professors.html">PROFESSORS</a></li>
+                    <li> <a href="house.html">HOUSES</a></li>
+                    <li> <a href="contact.html">CONTACT US</a></li>
+                    <li> <a href="add.html">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!-- <h3>Houses</h3>  -->
+    </section>
+    <section class="house">
+        <h1>Houses</h1>
+        <div class="house-col">
+            <div class="house-content">
+                <img src="gryffindor.jpg" alt="">
+                <p>Gryffindor is one of the four Houses of Hogwarts School of Witchcraft and Wizardry and was founded by Godric Gryffindor. It was created by Godric Gryffindor. Gryffindors are known for their nerve, chivalry, daring, courage, bravery and determination Gryffindor instructed the Sorting Hat to choose students possessing characteristics he most valued, such as courage, chivalry, nerve and determination, to be sorted into his house.The emblematic animal was a lion, and its colours were scarlet and gold and its house point hourglass was filled with rubies. Sir Nicholas de Mimsy-Porpington, also known as "Nearly Headless Nick", was the House ghost.</p>
+            </div>
+            <div class="house-content">
+                <img src="ravenclaw.jpg" alt="" class="house-img">
+                <p>Ravenclaw is one of the four Houses of Hogwarts School of Witchcraft and Wizardry, founded by Rowena Ravenclaw. Members of this house are characterised by their wit, learning, and wisdom. Its house colours are blue and bronze, and its symbol is an eagle.The emblematic animal symbol was an eagle, and blue and bronze were its colours. The Head of Ravenclaw was Filius Flitwick,
+                and the House ghost was the Grey Lady, real name Helena Ravenclaw, daughter of Rowena</p>
+                <img src="ravenclaw.jpg" alt="" class="ho-im">
+            </div>
+            <div class="house-content">
+                <img src="slytherin.jpg" alt="">
+                <p>Slytherin was one of the four Houses at Hogwarts School of Witchcraft and Wizardry, founded by Salazar Slytherin. In establishing the house, Salazar instructed the Sorting Hat to pick students who had a few particular characteristics he most valued. Those characteristics included cunning, resourcefulness, leadership, and ambition.The emblematic animal of the house was a snake and the house's colours were green and silver.
+                </p>
+            </div>
+            <div class="house-content">
+                <img src="hufflepuff.jpg" alt="" class="house-img">
+                <p>Hufflepuff was one of the four Houses of Hogwarts School of Witchcraft and Wizardry. Its founder was the medieval witch Helga Hufflepuff. Hufflepuff was the most inclusive among the four houses, valuing hard work, dedication, patience, loyalty, and fair play rather than a particular aptitude in its members.The emblematic animal was a badger, and yellow and black were its house colours. The Head of Hufflepuff was Pomona Sprout, and the Fat Friar was the House's patron ghost.</p>
+                <img src="hufflepuff.jpg" alt="" class="ho-im">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Hogwarts was founded around 990 A.D. by four of the greatest wizards and witches of the age: Godric Gryffindor,<br> Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin.<br> It is located at :Hogwarts Castle, Highlands, Scotland, Great Britain.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by <img src="last_sign2.0.png" alt=""></p>
+    
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <==========================scroll==================> -->
+    <a href="#" class="to-top">
+        <i class="fa fa-arrow-circle-o-up"></i>
+    </a>
+    <!-- <================================js===========================> -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.display="block";
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+            navLinks.style.display ="none";
+        }
+    </script>
+    <!-- <script>
+        var viewCol = document.getElementById("viewCol");
+
+        function fullimg(){
+            viewCol.style.display = "none";
+        }
+    </script> -->
+    <script>
+         const toTop = document.querySelector(".to-top");
+
+         window.addEventListener("scroll",() =>{
+            if(window.pageYOffset > 100){
+                toTop.classList.add("active");
+            }else{
+                toTop.classList.remove("active");
+            }
+         })
+    </script>
+</body>
+</html>
