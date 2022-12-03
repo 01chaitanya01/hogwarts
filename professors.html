@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>professors</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="hogwarts.css">
+    <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+</head>
+<body>
+    <section class="pro-header">
+        <nav>
+            <a href="index.html"><img src="hogwarts-7917.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="history.html">HISTORY</a></li>
+                    <li> <a href="professors.html">PROFESSORS</a></li>
+                    <li> <a href="house.html">HOUSES</a></li>
+                    <li> <a href="contact.html">CONTACT US</a></li>
+                    <li> <a href="add.html">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!-- <h3>professors</h3> -->
+    </section>
+
+    <section class="professors">
+        <h1>List of professors</h1>
+        <div class="professor-col">
+        <table>
+            <tr>
+                <th>professors</th>
+                <th>Name</th>
+                <th>subject</th>
+            </tr>
+            <tr>
+                <td> <img src="Albus Dumbledore.jpeg" alt=""></td>
+                <td>Albus Dumbledore<br>(principle)</td>
+                <td>Defence Against the Dark Arts, c. 1913-1927</td>
+            </tr>
+            <tr>
+                <td> <img src="Filius Flitwick.jpeg" alt=""></td>
+                <td>Filius Flitwick</td>
+                <td>Charms</td>
+            </tr>
+                <td> <img src="Dolores Umbridge.jpeg" alt=""></td>
+                <td>FDolores Umbridge</td>
+                <td>Defence Against the Dark Arts, 1995-1996</td>
+            </tr>
+            </tr>
+                <td> <img src="Gilderoy Lockhart.jpeg" alt=""></td>
+                <td>Gilderoy Lockhart</td>
+                <td>Defence Against the Dark Arts, 1992-1993</td>
+            </tr>
+            </tr>
+                <td> <img src="Horace Slughorn.jpeg" alt=""></td>
+                <td>Horace Slughorn</td>
+                <td>Potions, c. 1931-1981 and 1996-?</td>
+            </tr>
+            </tr>
+                <td> <img src="Pomona Sprout.jpeg" alt=""></td>
+                <td>Pomona Sprout</td>
+                <td>Herbology, ?-pre 2017</td>
+            </tr>
+            </tr>
+                <td> <img src="Quirinus Quirrell.jpeg" alt=""></td>
+                <td>Quirinus Quirrell</td>
+                <td>Muggle Studies until 1990; Defence Against the Dark Arts, 1991-1992</td>
+            </tr>
+            </tr>
+                <td> <img src="Remus Lupin.jpeg" alt=""></td>
+                <td>Remus Lupin</td>
+                <td>Defence Against the Dark Arts, 1993-1994</td>
+            </tr>
+            </tr>
+                <td> <img src="Rubeus Hagrid.jpeg" alt=""></td>
+                <td>Rubeus Hagrid</td>
+                <td>Care of Magical Creatures, 1993-?</td>
+            </tr>
+            </tr>
+                <td> <img src="Severus Snape.jpeg" alt=""></td>
+                <td>Severus Snape</td>
+                <td>Potions, 1981-1996; Defence Against the Dark Arts, 1996-1997</td>
+            </tr>
+            </tr>
+                <td> <img src="Sybill Trelawney.jpeg" alt=""></td>
+                <td>Sybill Trelawney</td>
+                <td>Divination, 1979-?</td>
+            </tr>
+        </table>
+    </div>  
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Hogwarts was founded around 990 A.D. by four of the greatest wizards and witches of the age: Godric Gryffindor,<br> Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin.<br> It is located at :Hogwarts Castle, Highlands, Scotland, Great Britain.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by <img src="last_sign2.0.png" alt="">....</p>
+    
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <==========================scroll==================> -->
+    <a href="#" class="to-top">
+        <i class="fa fa-arrow-circle-o-up"></i>
+    </a>
+    <!-- <================================js===========================> -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.display="block";
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+            navLinks.style.display ="none";
+        }
+    </script>
+    <!-- <script>
+        var viewCol = document.getElementById("viewCol");
+
+        function fullimg(){
+            viewCol.style.display = "none";
+        }
+    </script> -->
+    <script>
+         const toTop = document.querySelector(".to-top");
+
+         window.addEventListener("scroll",() =>{
+            if(window.pageYOffset > 100){
+                toTop.classList.add("active");
+            }else{
+                toTop.classList.remove("active");
+            }
+         })
+    </script>
+</body>
+</html>
