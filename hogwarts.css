@@ -115,6 +115,7 @@ nav .fa{
         display: none;
     }
     nav .fa{
+        width: 30px;
         display: block;
         color: rgb(254, 245, 245);
         margin: 10px;
